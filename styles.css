@@ -4,6 +4,7 @@
 
 table {
     width: 100%;
+    
 
 }
 
@@ -11,13 +12,14 @@ table {
 
 th {
     height: 40px;
-    border-color: black;
+    border-color: blue;
     font-size: 17px;
     font-weight: bold;
     border-bottom: 1px;
     background-color: #1270c2;
     color: white;
 }
+
 td {
     text-align: center;
 }
@@ -25,44 +27,44 @@ tr:nth-last-child(2n+1) {
     background-color: #65656544;
 }
 .nametd{
+    border: none;
     width: 23%;
     padding: 0 20px;
     text-align: left;
     color: black;
-    border-color: black;
-    border-bottom: 1px solid;
 }
 
 .borntd{
     width: 12.5%;
     color: black;
     text-align: center;
-    border-color: black;
-    border-bottom: 1px solid;
+    border: 1px solid blue;
+    border-width: 0 0 2px 0;
+     
 }
 
 .agetd{
     width: 12.5%;
     color: black;
     text-align: center;
-    border-color: black;
-    border-bottom: 1px solid;
+    border: 1px solid blue;
+    border-width: 0 0 2px 0;
 }
 
 .worktd{
     width: 12.5%;
     color: black;
     text-align: center;
-    border-color: black;
-    border-bottom: 1px solid;
+    border: 1px solid blue;
+    border-width: 0 0 2px 0;
 }
 .salarytd{
     width: 12.5%;
     color: black;
     padding: 0 20px;
     text-align: center;
-    border-color: black;
-    border-bottom: 1px solid;
+    border: 1px solid blue;
+    border-width: 0 0 2px 0;
 }
 h2 {
     font-size: 32px;
