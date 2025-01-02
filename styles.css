@@ -22,6 +22,7 @@ th {
 
 td {
     text-align: center;
+    padding: 5px;
 }
 tr:nth-last-child(2n+1) {
     background-color: #65656544;
@@ -55,17 +56,10 @@ tr:nth-last-child(2n+1) {
 }
 
 .worktd{
-    width: 12.5%;
-    color: black;
-    text-align: center;
-    border: 1px solid blue;
-    border-width: 0 0 2px 0;
-}
-.salarytd{
-    width: 12.5%;
+    width: 10.5%;
     color: black;
     padding: 0 20px;
-    text-align: center;
+    text-align: right;
     border: 1px solid blue;
     border-width: 0 0 2px 0;
 }
