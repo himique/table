@@ -42,7 +42,10 @@ tr:nth-last-child(2n+1) {
     border-width: 0 0 2px 0;
      
 }
-
+.filmhead{
+    padding: 0 20px;
+    text-align: left;
+}
 .agetd{
     width: 6.5%;
     color: black;
